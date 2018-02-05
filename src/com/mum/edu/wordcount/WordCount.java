@@ -18,6 +18,7 @@ public class WordCount {
     private HashMap<Text, IntWritable> mapper;
     
     protected void setup(Context context)throws IOException, InterruptedException{
+        super.setup(context);
     	mapper = new HashMap<>();
     }
         
